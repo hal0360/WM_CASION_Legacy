@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription,SpUsage"
+    android:background="#000"
+    tools:context=".LobbyActivity">
+
+    <tw.com.lixin.wm_casino.tools.ProfileBar
+        android:id="@+id/pro_bar"
+        android:layout_width="360dp"
+        app:title="WM CASINO"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="360dp"
+        android:layout_height="0dp"
+        android:background="@drawable/oragin_bg"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/broadcast">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <tw.com.lixin.wm_casino.tools.buttons.GameButton
+                android:id="@+id/dragon_tiger_game"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:game_image="@drawable/games_04"
+                app:game_name="@string/dragon_tiger"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.050000012" />
+
+            <tw.com.lixin.wm_casino.tools.buttons.GameButton
+                android:id="@+id/baccarat_game"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="15dp"
+                app:game_image="@drawable/game_01"
+                app:game_name="@string/baccarat"
+                app:layout_constraintEnd_toStartOf="@+id/dragon_tiger_game"
+                app:layout_constraintTop_toTopOf="@+id/dragon_tiger_game" />
+
+            <tw.com.lixin.wm_casino.tools.buttons.GameButton
+                android:id="@+id/niuniu_game"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                app:game_image="@drawable/games_05"
+                app:game_name="@string/niuniu"
+                app:layout_constraintStart_toEndOf="@+id/dragon_tiger_game"
+                app:layout_constraintTop_toTopOf="@+id/dragon_tiger_game"/>
+
+            <tw.com.lixin.wm_casino.tools.buttons.GameButton
+                android:id="@+id/golden_flower_game"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="25dp"
+                app:game_image="@drawable/games_09"
+                app:game_name="@string/golden_flower"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dragon_tiger_game"/>
+
+            <tw.com.lixin.wm_casino.tools.buttons.GameButton
+                android:id="@+id/samgong_game"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="15dp"
+                app:game_image="@drawable/games_06"
+                app:game_name="@string/samgong"
+                app:layout_constraintEnd_toStartOf="@+id/golden_flower_game"
+                app:layout_constraintTop_toTopOf="@+id/golden_flower_game" />
+
+            <tw.com.lixin.wm_casino.tools.buttons.GameButton
+                android:id="@+id/roulette_game"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                app:game_image="@drawable/games_02"
+                app:game_name="@string/roulette"
+                app:layout_constraintStart_toEndOf="@+id/golden_flower_game"
+                app:layout_constraintTop_toTopOf="@+id/golden_flower_game"/>
+
+            <tw.com.lixin.wm_casino.tools.buttons.GameButton
+                android:id="@+id/fantan_game"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="25dp"
+                app:game_image="@drawable/games_07"
+                app:game_name="@string/fantan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/golden_flower_game"/>
+
+            <tw.com.lixin.wm_casino.tools.buttons.GameButton
+                android:id="@+id/sic_bo_game"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="15dp"
+                app:game_image="@drawable/games_03"
+                app:game_name="@string/sic_bo"
+                app:layout_constraintEnd_toStartOf="@+id/fantan_game"
+                app:layout_constraintTop_toTopOf="@+id/fantan_game"/>
+
+            <tw.com.lixin.wm_casino.tools.buttons.GameButton
+                android:id="@+id/fish_prawn_game"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                app:game_image="@drawable/games_10"
+                app:game_name="@string/fish_prawn_crab"
+                app:layout_constraintStart_toEndOf="@+id/fantan_game"
+                app:layout_constraintTop_toTopOf="@+id/fantan_game"/>
+
+            <tw.com.lixin.wm_casino.tools.buttons.GameButton
+                android:id="@+id/se_die_game"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="25dp"
+                app:game_image="@drawable/games_11"
+                app:game_name="@string/se_die"
+                app:layout_constraintStart_toStartOf="@+id/sic_bo_game"
+                app:layout_constraintTop_toBottomOf="@+id/sic_bo_game"/>
+
+            <tw.com.lixin.wm_casino.tools.buttons.GameButton
+                android:id="@+id/anda_game"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                app:game_image="@drawable/games_128"
+                app:game_name="@string/anda_baha"
+                app:layout_constraintStart_toEndOf="@+id/se_die_game"
+                app:layout_constraintTop_toTopOf="@+id/se_die_game" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/constraintLayout19"
+        android:layout_width="360dp"
+        android:layout_height="165dp"
+        android:background="@drawable/lobby_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pro_bar"/>
+
+    <tw.com.lixin.wm_casino.tools.NewsBroadcast
+        android:id="@+id/broadcast"
+        android:layout_width="360dp"
+        android:layout_height="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout19" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

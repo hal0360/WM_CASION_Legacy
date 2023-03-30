@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WM_Casino</string>
+    <string name="zero">0</string>
+    <!-- login page -->
+    <string name="user_hint">帳號</string>
+    <string name="pass_hint">密碼</string>
+    <string name="user_login">玩家登入</string>
+    <string name="demo">遊戲試玩</string>
+    <string name="video">賭場現場視頻</string>
+    <string name="download_now">Download Now</string>
+    <!-- lobby page -->
+    <string name="baccarat">百家樂</string>
+    <string name="dragon_tiger">龍虎</string>
+    <string name="niuniu">牛牛</string>
+    <string name="samgong">三公</string>
+    <string name="golden_flower">炸金花</string>
+    <string name="roulette">輪盤</string>
+    <string name="sic_bo">骰寶</string>
+    <string name="fantan">番攤</string>
+    <string name="se_die">色碟</string>
+    <string name="anda_baha">安達巴哈</string>
+    <string name="fish_prawn_crab">魚蝦蟹</string>
+    <string name="multiply">多台</string>
+    <string name="online_users">在線總人數</string>
+    <string name="the_best">專\u0020\u0020\u0020業\u0020\u0020\u0020的\u0020\u0020\u0020真\u0020\u0020\u0020人\u0020\u0020\u0020娛\u0020\u0020\u0020樂\u0020\u0020\u0020城</string>
+    <string name="welcom_to_WM">WM集团（WM Group）成立于2014 年，是亚洲最新兴的博彩娱乐集团，我们凭着数十位博彩专家的经验与心血并结合网络技术优势，成功打造出一个以百家乐游戏为主的超级游戏平台。</string>
+    <!-- setting pop -->
+    <string name="information">個人資訊</string>
+    <string name="ranking">今日排名</string>
+    <string name="rule">遊戲須知</string>
+    <string name="follow">關注</string>
+    <string name="language">語言設置</string>
+    <string name="music">音樂設置</string>
+    <string name="settings">系統設置</string>
+    <string name="quit">退出遊戲</string>
+    <string name="background_music">背景樂</string>
+    <string name="sound_effect">音效</string>
+    <!-- Casino page -->
+    <string name="player">閒</string>
+    <string name="player1">閒1</string>
+    <string name="player2">閒2</string>
+    <string name="player3">閒3</string>
+    <string name="player1_abb">閒1</string>
+    <string name="player2_abb">閒2</string>
+    <string name="player3_abb">閒3</string>
+    <string name="banker">莊</string>
+    <string name="super6">超级6</string>
+    <string name="tie">和</string>
+    <string name="player_pair">閒對</string>
+    <string name="banker_pair">莊對</string>
+    <string name="player_abb">閒:</string>
+    <string name="banker_abb">莊:</string>
+    <string name="tiger_abb">虎:</string>
+    <string name="dragon_abb">龍:</string>
+    <string name="player_pair_abb">閒對:</string>
+    <string name="banker_pair_abb">莊對:</string>
+    <string name="tie_abb">和:</string>
+    <string name="payout">派彩</string>
+    <string name="dragon">龍</string>
+    <string name="tiger">虎</string>
+    <string name="next_t">虎問路</string>
+    <string name="next_d">龍問路</string>
+
+    <string name="player_road">閒</string>
+    <string name="banker_road">莊</string>
+    <string name="tiger_road">虎</string>
+    <string name="dragon_road">龍</string>
+    <string name="tie_road">和</string>
+    <!-- game page -->
+    <string name="wmbaccarat">WM百家樂</string>
+    <string name="baccarat_fast">快速百家樂</string>
+    <string name="dealing">開牌中</string>
+    <string name="waiting">換牌中</string>
+    <string name="back_to_lobby">回大廳</string>
+    <string name="gyu_shu">局數</string>
+    <string name="custom">自定義</string>
+    <string name="confirm">確認</string>
+    <string name="re_bet">重複</string>
+    <string name="cancel">取消</string>
+    <string name="bet">押注:</string>
+    <string name="limit">房間限制</string>
+    <string name="no_comm">免傭</string>
+    <string name="next_p">閒問路</string>
+    <string name="next_b">莊問路</string>
+    <string name="change_table">換桌</string>
+    <string name="table_limit">台紅</string>
+    <string name="table">房間號</string>
+    <string name="dealer">荷官</string>
+    <string name="bid_me">咪牌</string>
+    <string name="signal">訊號</string>
+    <string name="player_num">本桌人數</string>
+    <string name="name">名稱</string>
+    <string name="odds">賠率</string>
+    <string name="minimum">最小投注</string>
+    <string name="maximum">最大投注</string>
+    <string name="wins">勝率</string>
+    <string name="pass_incorr">密碼錯誤!!</string>
+
+    <!-- message -->
+    <string name="mss_1">小美眉，給我個飛吻吧〜</string>
+    <string name="mss_2">美女，你叫什麼名字？</string>
+    <string name="mss_3">小妞，揮揮手～</string>
+    <string name="mss_4">今天手氣不好，美女幫我打打氣～</string>
+    <string name="mss_5">贏錢好容易，小妞好給力</string>
+    <string name="mss_6">贏要衝，輸要縮～</string>
+    <string name="mss_7">師父說拿AK不賭是棒槌～</string>
+    <string name="mss_8">這麼多人買閒家，我買莊家，我是個倔梆子</string>
+
+    <string name="black">黑</string>
+    <string name="red">紅</string>
+    <string name="green">綠</string>
+    <string name="oh">零</string>
+    <string name="big">大</string>
+    <string name="small">小</string>
+    <string name="even">雙</string>
+    <string name="odd">單</string>
+    <string name="BIG">大</string>
+    <string name="SMALL">小</string>
+    <string name="EVEN">雙</string>
+    <string name="ODD">單</string>
+    <string name="dozen1">第一打</string>
+    <string name="dozen2">第二打</string>
+    <string name="dozen3">第三打</string>
+    <string name="column1">第一列</string>
+    <string name="column2">第二列</string>
+    <string name="column3">第三列</string>
+    <string name="wei">圍</string>
+    <string name="equal">平倍</string>
+    <string name="doublle">翻倍</string>
+
+    <string name="pairPlus">對牌以上</string>
+    <string name="bankerPairPlus">莊對牌以上</string>
+    <string name="win">贏</string>
+    <string name="lose">輸</string>
+
+    <string name="niu">牛</string>
+    <string name="no_niu">無牛</string>
+    <string name="wugong">5公</string>
+    <string name="nga">通</string>
+    <string name="nim">念</string>
+    <string name="fan">番</string>
+    <string name="kwok">角</string>
+    <string name="ssh">三門</string>
+    <string name="dice">骰</string>
+
+    <string name="red_black_even">雙面</string>
+    <string name="column_dozen">三面</string>
+    <string name="line">線注</string>
+    <string name="triangle">角注/四個號碼</string>
+    <string name="street">街注/三數</string>
+    <string name="separate">分注</string>
+    <string name="direct">直接注</string>
+
+    <string name="single_dice">單點數</string>
+    <string name="two_dice">短牌</string>
+    <string name="points">和值</string>
+    <string name="specific_double">長牌, 和值8/13</string>
+    <string name="all_leopard">全圍</string>
+    <string name="three_single">三不同</string>
+    <string name="specific_single">二同號</string>
+    <string name="specific_triples">圍骰</string>
+    <string name="one_of_a_kind">三軍</string>
+    <string name="designate_color_1">指定單色</string>
+    <string name="designate_color_2">指定雙色</string>
+    <string name="designate_color_3">指定三色</string>
+    <string name="color_3_dice">任意三色</string>
+    <string name="sum_of_points">點數總和:</string>
+
+    <string name="double_normal">翻倍(一般牌型)</string>
+    <string name="double_bull">翻倍(牛7~牛9)</string>
+    <string name="double_5k">翻倍(五公)</string>
+    <string name="double_niu_niu">翻倍(牛牛)</string>
+
+    <string name="three_face">三公</string>
+    <string name="flush">同花</string>
+    <string name="three_of_kind">三條</string>
+    <string name="straight">順子</string>
+    <string name="straight_flush">同花順</string>
+    <string name="pair">一對</string>
+</resources>

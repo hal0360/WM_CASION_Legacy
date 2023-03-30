@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WM_Casino</string>
+    <string name="zero">0</string>
+    <!-- login page -->
+    <string name="user_hint">Username</string>
+    <string name="pass_hint">Password</string>
+    <string name="user_login">Login</string>
+    <string name="demo">Demo</string>
+    <string name="video">Video Casino</string>
+    <string name="download_now">Download Now</string>
+    <!-- lobby page -->
+    <string name="baccarat">Baccarat</string>
+    <string name="dragon_tiger">Dragon &amp; Tiger</string>
+    <string name="niuniu">Niuniu</string>
+    <string name="samgong">Samgong</string>
+    <string name="golden_flower">Golden Flower</string>
+    <string name="roulette">Roulette</string>
+    <string name="sic_bo">Sic Bo</string>
+    <string name="fantan">Fantan</string>
+    <string name="se_die">Se Die</string>
+    <string name="anda_baha">Anda Baha</string>
+    <string name="fish_prawn_crab">Fish Prawn Crab Dice</string>
+    <string name="multiply">Multiplay</string>
+    <string name="online_users">Online users</string>
+    <string name="the_best">The best live casino platforms</string>
+    <string name="welcom_to_WM">WM Group (WM Group) was established in 2014 and is the latest gaming entertainment group in Asia. We have successfully built a baccarat game based on the experience and efforts of dozens of gambling experts and the advantages of network technology. Super game platform.</string>
+    <!-- setting pop -->
+    <string name="information">Information</string>
+    <string name="ranking">Ranking</string>
+    <string name="rule">Rule</string>
+    <string name="language">Language</string>
+    <string name="music">Music</string>
+    <string name="follow">Follow</string>
+    <string name="settings">Settings</string>
+    <string name="quit">Quit</string>
+    <string name="background_music">Background music</string>
+    <string name="sound_effect">Sound effect</string>
+    <!-- Casino page -->
+    <string name="player">Player</string>
+    <string name="player1">Player1</string>
+    <string name="player2">Player2</string>
+    <string name="player3">Player3</string>
+    <string name="player1_abb">P1</string>
+    <string name="player2_abb">P2</string>
+    <string name="player3_abb">P3</string>
+    <string name="banker">Banker</string>
+    <string name="super6">Super6</string>
+    <string name="tie">Tie</string>
+    <string name="player_pair">Player pair</string>
+    <string name="banker_pair">Banker pair</string>
+    <string name="player_abb">P:</string>
+    <string name="banker_abb">B:</string>
+    <string name="tiger_abb">T:</string>
+    <string name="dragon_abb">D:</string>
+    <string name="player_pair_abb">PP:</string>
+    <string name="banker_pair_abb">BP:</string>
+    <string name="tie_abb">T:</string>
+    <string name="payout">Payout</string>
+    <string name="dragon">Dragon</string>
+    <string name="tiger">Tiger</string>
+    <string name="next_t">Next T</string>
+    <string name="next_d">Next D</string>
+
+    <string name="player_road">P</string>
+    <string name="banker_road">B</string>
+    <string name="tiger_road">T</string>
+    <string name="dragon_road">D</string>
+    <string name="tie_road">T</string>
+    <!-- game page -->
+    <string name="wmbaccarat">WMBaccarat</string>
+    <string name="baccarat_fast">Bac(fast)</string>
+    <string name="dealing">Dealing</string>
+    <string name="waiting">Waiting</string>
+    <string name="back_to_lobby">BACK</string>
+    <string name="gyu_shu">No.</string>
+    <string name="custom">Custom</string>
+    <string name="confirm">Confirm</string>
+    <string name="re_bet">Re-bet</string>
+    <string name="cancel">Cancel</string>
+    <string name="bet">Bet:</string>
+    <string name="limit">Limit</string>
+    <string name="no_comm">No Comm</string>
+    <string name="next_p">Next P</string>
+    <string name="next_b">Next B</string>
+    <string name="change_table">Change table</string>
+    <string name="table_limit">Table limit</string>
+    <string name="table">Table</string>
+    <string name="dealer">Dealer</string>
+    <string name="bid_me">BidMe</string>
+    <string name="signal">Signal</string>
+    <string name="player_num">Players</string>
+    <string name="name">Name</string>
+    <string name="odds">Odds</string>
+    <string name="minimum">Minimum</string>
+    <string name="maximum">Maximum</string>
+    <string name="wins">Wins</string>
+    <string name="pass_incorr">Password incorrect!!</string>
+
+    <!-- message -->
+    <string name="mss_1">Give me a kiss ~</string>
+    <string name="mss_2">Beauty, what is your name?</string>
+    <string name="mss_3">Beauty, waved ~</string>
+    <string name="mss_4">Today’s not good luck, beauty help me fight ~</string>
+    <string name="mss_5">Win money easy</string>
+    <string name="mss_6">Win to be brave, lose to be careful ~</string>
+    <string name="mss_7">Master said : get AK does not bet is a fool ~</string>
+    <string name="mss_8">So many people bet player , I bet dealer, I am a stubborn child</string>
+
+    <string name="black">B</string>
+    <string name="red">R</string>
+    <string name="green">G</string>
+    <string name="oh">Z</string>
+    <string name="big">B</string>
+    <string name="small">S</string>
+    <string name="even">E</string>
+    <string name="odd">O</string>
+    <string name="BIG">Big</string>
+    <string name="SMALL">Small</string>
+    <string name="EVEN">Even</string>
+    <string name="ODD">Odd</string>
+    <string name="dozen1">Dozen1</string>
+    <string name="dozen2">Dozen2</string>
+    <string name="dozen3">Dozen3</string>
+    <string name="column1">Column1</string>
+    <string name="column2">Column2</string>
+    <string name="column3">Column3</string>
+    <string name="wei">L</string>
+    <string name="equal">Equal</string>
+    <string name="doublle">Double</string>
+
+    <string name="pairPlus">PairPlus</string>
+    <string name="bankerPairPlus">BankerPairPlus</string>
+    <string name="win">Win</string>
+    <string name="lose">Lose</string>
+
+    <string name="niu">Niu</string>
+    <string name="no_niu">No Niu</string>
+    <string name="wugong">5P</string>
+    <string name="nga">Nga</string>
+    <string name="nim">Nim</string>
+    <string name="fan">Fan</string>
+    <string name="kwok">Kwok</string>
+    <string name="ssh">Ssh</string>
+    <string name="dice">Dice</string>
+
+    <string name="red_black_even">Red,Black,Odd,Even,Big,Small</string>
+    <string name="column_dozen">Column/Dozen</string>
+    <string name="line">Line</string>
+    <string name="triangle">Triangle/Four Numbers</string>
+    <string name="street">Street/Three Numbers</string>
+    <string name="separate">Separate</string>
+    <string name="direct">Direct</string>
+
+    <string name="single_dice">Single Dice</string>
+    <string name="two_dice">Two Dice combination</string>
+    <string name="points">Points</string>
+    <string name="specific_double">Specific Double 8 or 13 points</string>
+    <string name="all_leopard">AllLeopard</string>
+    <string name="three_single">Three Single Number Combination</string>
+    <string name="specific_single">Specific Double And Single NUmber Combination</string>
+    <string name="specific_triples">Specific Triples</string>
+    <string name="one_of_a_kind">One of A Kind</string>
+    <string name="designate_color_1">Designate a color on 1 dice</string>
+    <string name="designate_color_2">Designate a color on 2 dice</string>
+    <string name="designate_color_3">Designate a color on 3 dice</string>
+    <string name="color_3_dice">A color on 3 dice</string>
+    <string name="sum_of_points">Sum of Points:</string>
+
+    <string name="double_normal">Double(Normal)</string>
+    <string name="double_bull">Double(Bull7~Bull9)</string>
+    <string name="double_5k">Double(5K)</string>
+    <string name="double_niu_niu">Double(Niu Niu)</string>
+
+    <string name="three_face">ThreeFace</string>
+    <string name="flush">Flush</string>
+    <string name="three_of_kind">Three of a Kind</string>
+    <string name="straight">Straight</string>
+    <string name="straight_flush">Straight Flush</string>
+    <string name="pair">Pair</string>
+
+</resources>

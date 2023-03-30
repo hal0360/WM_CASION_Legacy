@@ -1,0 +1,114 @@
+<resources>
+
+    <attr name="title" format="string" />
+    <attr name="game_name" format="string"/>
+    <attr name="game_image" format="reference" />
+    <attr name="grid_y" format="integer" />
+    <attr name="grid_x" format="integer" />
+    <attr name="xml_txt" format="reference" />
+
+    <declare-styleable name="CardImage">
+        <attr name="card_area" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="NgaText">
+        <attr name="xml_txt" />
+    </declare-styleable>
+
+    <declare-styleable name="CasinoGrid">
+        <attr name="grid_y" />
+        <attr name="grid_x" />
+    </declare-styleable>
+
+    <declare-styleable name="SamGrid">
+        <attr name="grid_x" />
+    </declare-styleable>
+
+    <declare-styleable name="NiuGird">
+        <attr name="grid_x" />
+        <attr name="scale" format="enum">
+            <enum name="table" value="1"/>
+            <enum name="portrait" value="2"/>
+            <enum name="landscape" value="3"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="DiceGrid">
+        <attr name="grid_x" />
+    </declare-styleable>
+
+    <declare-styleable name="CrabGrid">
+        <attr name="grid_x" />
+    </declare-styleable>
+
+    <declare-styleable name="ArrowButton">
+        <attr name="direction" format="enum">
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TextGrid">
+        <attr name="grid_y" />
+        <attr name="grid_x" />
+    </declare-styleable>
+
+    <declare-styleable name="ChipStack">
+        <attr name="area" format="string" />
+        <attr name="max_val" format="integer" />
+        <attr name="text" format="string" />
+        <attr name="text_size" format="integer" />
+        <attr name="text_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CasinoDoubleGrid">
+        <attr name="grid_y" />
+        <attr name="grid_x" />
+    </declare-styleable>
+
+    <declare-styleable name="ClickConstraint">
+        <attr name="border_radius" format="dimension" />
+        <attr name="stroke_width" format="dimension" />
+        <attr name="fill_color" format="color"  />
+        <attr name="stroke_color" format="color"  />
+    </declare-styleable>
+
+    <declare-styleable name="ProfileBar">
+        <attr name="title" />
+        <attr name="show_balance" format="boolean" />
+    </declare-styleable>
+
+    <!--
+    <declare-styleable name="ChipStack">
+        <attr name="title_color" format="color" />
+        <attr name="title" />
+        <attr name="bet_color" format="color" />
+        <attr name="normal_color" format="color" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    -->
+
+    <declare-styleable name="CustomChip">
+        <attr name="number_size" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="AskButton">
+        <attr name="ask_type" format="enum">
+            <enum name="player" value="1"/>
+            <enum name="banker" value="2"/>
+            <enum name="tiger" value="3"/>
+            <enum name="dragon" value="4"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TableSwitchSelect">
+        <attr name="game_name" />
+        <attr name="game_image" />
+    </declare-styleable>
+
+    <declare-styleable name="GameButton">
+        <attr name="game_name"/>
+        <attr name="game_image" />
+    </declare-styleable>
+
+</resources>

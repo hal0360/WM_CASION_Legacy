@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ContentDescription,SpUsage"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <HorizontalScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/custom_chip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <tw.com.lixin.wm_casino.tools.chips.Chip1
+                android:id="@+id/chip1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp" />
+
+            <tw.com.lixin.wm_casino.tools.chips.Chip5
+                android:id="@+id/chip5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp" />
+
+            <tw.com.lixin.wm_casino.tools.chips.Chip10
+                android:id="@+id/chip10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp" />
+
+            <tw.com.lixin.wm_casino.tools.chips.Chip20
+                android:id="@+id/chip20"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp" />
+
+            <tw.com.lixin.wm_casino.tools.chips.Chip50
+                android:id="@+id/chip50"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp" />
+
+            <tw.com.lixin.wm_casino.tools.chips.Chip100
+                android:id="@+id/chip100"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp" />
+
+            <tw.com.lixin.wm_casino.tools.chips.Chip500
+                android:id="@+id/chip500"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp" />
+
+            <tw.com.lixin.wm_casino.tools.chips.Chip1000
+                android:id="@+id/chip1000"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp" />
+
+            <tw.com.lixin.wm_casino.tools.chips.Chip5000
+                android:id="@+id/chip5000"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp" />
+
+            <tw.com.lixin.wm_casino.tools.chips.Chip10000
+                android:id="@+id/chip10000"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/custom_chip"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/chip_custom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/num_txt"
+            android:layout_width="35dp"
+            android:layout_height="12dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/custom"
+            android:textColor="#fff"
+            android:textSize="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.43"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.26999998" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</merge>
